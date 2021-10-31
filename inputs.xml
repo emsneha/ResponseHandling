@@ -1,0 +1,79 @@
+
+<inputs>
+	<api
+		id = "0"
+		methodType = "GET"
+		url = "https://www.googleapis.com/drive/v3/files/"
+		path = "1K_-wclWiBmC44RI4-0SJ8e9gbGlR862F"
+		key = "?access_token=ya29.ImC9B52-vzDloYw7hIc7S8wojeifykhpuEpHASzlznZ2L1VhoFM2GI9qntYAJg1b8J7jYD8WgxKmuNSrqjQcnA1lkyXqyeXpaM9b-Nada4AQlGqrcWaeIqorhWe08mipGtg"
+		schema = '{
+			    	"id": {
+			   			"type": "string"
+		 			},
+			    	"name": {
+			   			"type": "string"
+			    	},
+			    	"mimeType": {
+			    		"type": "string"
+			   		}
+	 			}'
+	>
+	</api>
+	<api
+		id = "1"
+		methodType = "GET"
+		url = "http://www.mocky.io/"
+		path = "v2/"
+		key = "5e4a68012f0000560097d154"
+		schema = '{
+			"id": {
+				"type": "string"
+			},
+			"name": {
+				"type": "string"
+			},
+			"occupation": {
+				"type": "string"
+			}
+		}'
+	>
+	</api>
+	<api
+		id = "2"
+		methodType = "GET"
+		url = "http://www.mocky.io/"
+		path = "v2/"
+		key = "5e4a761f2f00005d0097d1ea"
+		schema = '{
+			"name": {
+				"type": "string"
+			},
+			"address": {
+				"type": "string"
+			},
+			"country": {
+				"type": "string"
+			}
+		}'
+	>
+	</api>
+	<api
+		id = "3"
+		methodType = "GET"
+		url = "http://www.mocky.io/"
+		path = "v2/"
+		key = "5e4a75bb2f0000560097d1e5"
+		schema = '{
+			"id": {
+				"type": "integer"
+			},
+			"name": {
+				"type": "string"
+			},
+			"age": {
+				"type": "integer"
+			}
+		}'
+	>
+	</api>
+</inputs>
